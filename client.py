@@ -22,5 +22,5 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 	rcvd = s.recv(1024)
 	rcvd = rcvd.decode("utf-8")
 
-print('Sent :		{}'.format(data))
-print('Received:	{}'.format(rcvd))
+print(f'Sent :		{data}')
+print(f'Received:	{rcvd}')
