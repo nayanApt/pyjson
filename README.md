@@ -1,5 +1,5 @@
 # Usage
 
-./server.py
+./runserver.py
 
 ./client.py
