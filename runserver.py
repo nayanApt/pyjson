@@ -3,7 +3,7 @@
 import server
 
 if __name__ == '__main__':
-	print('runserver is being run directly')
+	print('runserver module is being run directly')
 	server.run()
 else:
 	print('runserver is being imported into another module')
