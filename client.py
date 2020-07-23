@@ -7,11 +7,11 @@ HOST = '127.0.0.1'
 PORT = 65432
 
 class Laptop:
-	pass
+	def __init__(self):
+		self.brand = 'MSI'
+		self.cpu = 'i7-7700HQ'
 
 laptop = Laptop()
-laptop.brand = 'MSI'
-laptop.cpu = 'i7-7700HQ'
 
 data = json.dumps(laptop.__dict__)
 
